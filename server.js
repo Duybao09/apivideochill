@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 🔑 PEXELS API KEY (đăng ký miễn phí tại pexels.com/api)
-const PEXELS_KEY = "THAY_API_KEY_PEXELS_VAO_DAY";
+const PEXELS_KEY = "duybao095";
 
 app.get("/", (req, res) => {
   res.json({
